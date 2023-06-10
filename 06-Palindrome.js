@@ -13,3 +13,12 @@ function palindrome(str){
     }
     return "Palindromic"
 }
+
+// Solution #2: Recursion
+
+function palindrome2(str) {
+    if(str.length === 1) return "Palindromic";
+    if(str[0] === str.slice(-1)) return palindrome2(str.slice(1,-1))
+    return "Non palindromic"
+}
+console.log(palindrome2("level"));
