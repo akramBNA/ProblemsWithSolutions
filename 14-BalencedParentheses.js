@@ -19,16 +19,12 @@ if(typeof(str) === "string"){
         countRight++
         }
     } 
-
     if( countRight === countLeft){
         return true
-    }
-        
+    }    
         return false
 }
 else {
     return "please enter a string"
-}
-
-    
+    }    
 };
