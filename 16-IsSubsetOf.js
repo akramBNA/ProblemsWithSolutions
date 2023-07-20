@@ -4,7 +4,7 @@
 
 // Solution:
 
-var theSubset=["toygame","warmup"];
+var theSubset=["toy problem","warmup","programming","development"];
 
 Array.prototype.isSubsetOf = function (arr) {
     var counter=0
