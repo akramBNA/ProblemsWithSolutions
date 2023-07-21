@@ -16,3 +16,7 @@ const phoneDigitsToLetters = {
   8: 'TUV',
   9: 'WXYZ'
 };
+
+function PhoneDigitsToLetters(digits) {
+	// write your code here ...
+}
