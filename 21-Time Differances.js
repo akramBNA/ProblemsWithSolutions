@@ -1,6 +1,6 @@
 // Description:
 
-// Create a JS program that verifies if a number is prime or notreturns time differ,ace between two time inputes
+// Create a JS program that returns time differance between two time inputes
 // Ex: console.log("Time Differance: ", timeDifferance("07:21", "16:11")) ===> 09:10
 
 //Solution:
@@ -26,5 +26,3 @@ const timeDifferance = function (t1, t2) {
 
     return result;
 }
-
-console.log("Time Differance: ", timeDifferance("07:21", "16:11"));
