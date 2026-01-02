@@ -30,3 +30,23 @@
 // Notes:
 // - The function must return the character itself, not its index.
 // - The solution should scan the string only once.
+
+// SOLUTION:
+
+function firstRepeatedChar(s) {    
+    const seen = new Set();
+
+    for (let char of s) {
+        if (seen.has(char)) {
+            return char;
+        }
+        seen.add(char);
+    }
+
+    return null;
+}
+
+// Example usage:
+console.log(firstRepeatedChar("abca")); // Output: "a"
+console.log(firstRepeatedChar("abcdef")); // Output: null
+console.log(firstRepeatedChar("aabbcc")); // Output: "a"
